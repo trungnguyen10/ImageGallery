@@ -13,12 +13,12 @@ for (let i = 1; i <= 5; i++) {
   };
   thumbBar.appendChild(newImage);
 }
-/* Wiring up the Darken/Lighten button */
 
 function getSource(){
   return event.target.getAttribute('src');
 }
 
+/* Wiring up the Darken/Lighten button */
 btn.onclick = function(){
   var className = btn.getAttribute('class');
   if (className == 'dark') {
